@@ -1,0 +1,38 @@
+﻿@using CV.Models
+@model List<PanelProject>
+
+@{
+    ViewBag.baslik = "Projeler";
+    Layout = "~/Views/Shared/_PanelLayout.cshtml";
+}
+
+<div class="cizgi-baslıgı">VERİ LİSTESİ</div>
+<div class="cizgi"></div>
+
+<table class="tablo table table-striped table-dark">
+    <thead>
+        <tr>
+            <th class="project-id-satir">#</th>
+            <th class="project-satir">Post Adı</th>
+            <th class="project-satir">Post Adresi</th>
+            <th class="project-satir">Post içeriği</th>
+            <th class="project-satir">Post Resimi</th>
+            <th class="project-guncelle-satir">-</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td class="align-middle project-id-satir">@x.Id</td>
+                <td class="align-middle project-satir">@x.BlogAd</td>
+                <td class="align-middle project-satir">@x.BlogAdres</td>
+                <td class="align-middle project-satir">@x.BlogIcerik</td>
+                <td class="align-middle project-satir"><img class="src-resim" src="/assets/images/Project_images/@x.BlogResim" width="70px" /></td>
+                <td class="align-middle project-guncelle-satir"><a href="/PanelProject/PPro_Get/@x.Id" class="guncelle">Güncelle</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/PanelProject/PPro_add" class="veri-ekle"> Yeni Veri Ekle</a>

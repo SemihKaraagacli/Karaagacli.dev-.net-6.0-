@@ -1,0 +1,38 @@
+﻿@using CV.Models
+@model List<PanelExperiance>
+@{
+    ViewBag.baslik = "DENEYİM";
+    Layout = "~/Views/Shared/_PanelLayout.cshtml";
+}
+
+<div class="cizgi-baslıgı">VERİ LİSTESİ</div>
+<div class="cizgi"></div>
+
+<table class="tablo table table-striped table-dark">
+    <thead>
+        <tr>
+            <th class="experiance-id-satir ">#</th>
+            <th class="experiance-satir">Şiket Adı</th>
+            <th class="experiance-satir">Yıl</th>
+            <th class="experiance-satir">Alan</th>
+            <th class="experiance-satir">İçerik</th>
+            <th class="experiance-guncelle-satir">-</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td class="align-middle experiance-id-satir">@x.Id</td>
+                <td class="align-middle experiance-satir">@x.DeneyimAd</td>
+                <td class="align-middle experiance-satir">@x.DeneyimYıl</td>
+                <td class="align-middle experiance-satir">@x.DeneyimAlan</td>
+                <td class="align-middle experiance-satir">@x.DeneyimIcerik</td>
+                <td class="align-middle experiance-guncelle-satir"><a href="/PanelExperiance/PE_Get/@x.Id" class="guncelle">Güncelle</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/PanelExperiance/PE_Add" class="veri-ekle"> Yeni Veri Ekle</a>
+
