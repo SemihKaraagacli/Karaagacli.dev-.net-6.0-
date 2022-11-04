@@ -49,9 +49,9 @@ body {
         }
 
     .menu__btn {
-        position: fixed;
-        top: 19px;
-        left: 20px;
+        position: relative;
+        top: 15px;
+        right:15px;
         width: 26px;
         height: 26px;
         cursor: pointer;
@@ -84,7 +84,7 @@ body {
         position: fixed;
         top: 0;
         left: -100%;
-        width: 12%;
+        width: 20%;
         height: 100%;
         margin: 0;
         padding: 12% 0px;
@@ -118,9 +118,10 @@ body {
     /* ################### SAYFA ADI ALANI ################# */
 
     .col-4 h3 {
-        padding-top: 5PX;
+        font-family: 'Lora', serif;
+        padding-top: 5px;
         text-align: center;
-        font-weight: bolder;
+        font-weight: 200;
     }
     /* ################### LİSTE SİMETRİ ALANI ################# */
     .profil-satir {
@@ -175,6 +176,9 @@ body {
         width: 22%;
         height: auto;
     }
+    .project-satir img{
+        width:70px;
+    }
 
     .project-id-satir {
         width: 1%;
@@ -203,9 +207,10 @@ body {
         }
 
     .menu__btn-2 {
-        position: fixed;
+        float: right;
+        position: relative;
         top: 6px;
-        right: 20px;
+        left: 17px;
         width: 40px;
         height: 26px;
         cursor: pointer;
@@ -313,6 +318,7 @@ body {
         width: 150px;
         height: 30px;
         padding-top: 3px;
+        margin-bottom:90px;
         border-radius: 5px;
         font-size: 17px;
         font-weight: bolder;
@@ -697,7 +703,7 @@ body {
         width: 22%;
         height: auto;
     }
-    .profil-satir img{
+    .project-satir img{
         width:55px;
     }
 

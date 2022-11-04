@@ -305,7 +305,7 @@ body {
         }
 
             .page-header h4 {
-                font-size:20px;
+                font-size: 20px;
                 font-weight: 700;
                 color: var(--write-color);
             }
@@ -320,6 +320,8 @@ body {
     /* ############## COMMON FINISH ################# */
     /* ############## ABOUT START ################# */
     .definition {
+        font-family: 'Barlow', sans-serif;
+        font-weight:400;
         word-wrap: break-word;
         padding-left: 20px;
         padding-right: 20px;
@@ -346,7 +348,7 @@ body {
         padding: 10px;
         background-color: #b88726d8;
         border-radius: 10px;
-        box-shadow: 1px 1px 7px #85837a;
+        box-shadow: 0px 0px 7px #85837a;
     }
 
         .ny-main-2 i {
@@ -356,20 +358,23 @@ body {
         }
 
     .ny-baslik {
+        font-family: 'Lora', serif;
         margin-bottom: 5px;
-        font-size: 17px;
-        font-weight: bold;
+        font-size: 18px;
+        font-weight: 800;
         color: var(--write-color);
     }
 
     .ny-icerik {
+        font-family: 'Barlow', sans-serif;
         color: var(--write-color);
     }
-    @media (min-width:1200px) and (max-width:1263px){
+    @media only screen (min-width:1200px) and (max-width:1263px){
         .definition {
+            font-family: 'Barlow', sans-serif;
             word-wrap: break-word;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
             margin-bottom: 15px;
             text-align: justify;
             color: var(--write-color);
@@ -384,7 +389,7 @@ body {
         }
 
         .ny-main-2 {
-            width: 47%;
+            width: 45%;
             display: flex;
             flex-direction: row;
             word-break: break-word;
@@ -393,7 +398,7 @@ body {
             padding: 10px;
             background-color: #b88726d8;
             border-radius: 10px;
-            box-shadow: 1px 1px 7px #85837a;
+            box-shadow:0px 0px 8px #85837a;
         }
 
             .ny-main-2 i {
@@ -403,6 +408,7 @@ body {
             }
 
         .ny-baslik {
+            font-family: 'Lora', serif;
             margin-bottom: 5px;
             font-size: 16px;
             font-weight: bold;
@@ -410,8 +416,9 @@ body {
         }
 
         .ny-icerik {
+            font-family: 'Barlow', sans-serif;
             color: var(--write-color);
-            font-size:14px;
+            font-size: 14px;
         }
     }
     /* ############## ABOUT FINISH ################# */
@@ -440,12 +447,13 @@ body {
         left: 21px;
         word-wrap: break-word;
         padding-left: 25px;
+        border-radius:3px;
     }
 
     .circle {
         border: 6px solid var(--space-line-color);
         border-radius: 100px;
-        box-shadow: 1px 1px 6px white;
+        box-shadow: 0px 0px 6px 5px white;
         width: 10px;
         position: relative;
         left: 16px;
@@ -685,7 +693,7 @@ body {
         word-break: break-word;
         background-color: #483838;
         font-size: 17px;
-        font-weight: 400;
+        font-weight: 500;
     }
 
     .project-contents-box {
