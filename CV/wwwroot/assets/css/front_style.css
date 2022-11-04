@@ -152,7 +152,8 @@ body {
             .social-media a:hover {
                 color: var(--space-line-color);
             }
-    @media (min-width:1200px) and (max-width:1263px){
+
+    @media (min-width:1200px) and (max-width:1263px) {
         .mail-cimetry {
             display: flex;
             flex-direction: column;
@@ -212,7 +213,7 @@ body {
             color: var(--space-line-color);
         }
     }
-   
+
     /* /////////// MAİN-SİDEBAR ////////////// */
     .main-sidebar {
         background-color: var(--main-background-color);
@@ -268,7 +269,8 @@ body {
             background-color: var(--space-line-color);
             width: 150px;
         }
-    @media (min-width:1200px) and (max-width:1263px){
+
+    @media (min-width:1200px) and (max-width:1263px) {
         .navi-bar {
             display: flex;
             flex-direction: row;
@@ -321,7 +323,7 @@ body {
     /* ############## ABOUT START ################# */
     .definition {
         font-family: 'Barlow', sans-serif;
-        font-weight:400;
+        font-weight: 400;
         word-wrap: break-word;
         padding-left: 20px;
         padding-right: 20px;
@@ -369,7 +371,8 @@ body {
         font-family: 'Barlow', sans-serif;
         color: var(--write-color);
     }
-    @media only screen (min-width:1200px) and (max-width:1263px){
+
+    @media only screen (min-width:1200px) and (max-width:1263px) {
         .definition {
             font-family: 'Barlow', sans-serif;
             word-wrap: break-word;
@@ -398,7 +401,7 @@ body {
             padding: 10px;
             background-color: #b88726d8;
             border-radius: 10px;
-            box-shadow:0px 0px 8px #85837a;
+            box-shadow: 0px 0px 8px #85837a;
         }
 
             .ny-main-2 i {
@@ -447,7 +450,7 @@ body {
         left: 21px;
         word-wrap: break-word;
         padding-left: 25px;
-        border-radius:3px;
+        border-radius: 3px;
     }
 
     .circle {
@@ -512,7 +515,8 @@ body {
         margin-bottom: 15px;
         color: var(--write-color);
     }
-    @media (min-width:1200px) and (max-width:1263px){
+
+    @media (min-width:1200px) and (max-width:1263px) {
         .education {
             padding-left: 35px;
             padding-right: 35px;
@@ -526,8 +530,9 @@ body {
             flex-direction: row;
             align-items: center;
         }
-        .name{
-            font-size:24px;
+
+        .name {
+            font-size: 24px;
         }
 
         .education i {
@@ -549,7 +554,7 @@ body {
         }
 
         .school-date {
-            font-size:16px;
+            font-size: 16px;
             margin-bottom: 15px;
             color: var(--space-line-color);
         }
@@ -614,7 +619,8 @@ body {
         margin-bottom: 15px;
         color: var(--write-color);
     }
-    @media (min-width:1200px) and (max-width:1263px){
+
+    @media (min-width:1200px) and (max-width:1263px) {
         .experiance {
             padding-left: 35px;
             padding-right: 35px;
@@ -708,8 +714,8 @@ body {
 
     .project-img img {
         margin: 7px;
-        width:200px;
-        height:200px;
+        width: 200px;
+        height: 200px;
     }
 
     .project-contents {
@@ -730,7 +736,8 @@ body {
         word-wrap: break-word;
         color: var(--write-color);
     }
-    @media (min-width:1200px) and (max-width:1263px){
+
+    @media (min-width:1200px) and (max-width:1263px) {
         .project-main-box {
             margin-bottom: 25px;
             display: flex;
@@ -1268,10 +1275,10 @@ body {
         background-color: #483838;
     }
 
-    .project-img img {
+    .project-img-2 img {
         margin: 7px;
-        width: 200px;
-        height: 200px;
+        width: 80px;
+        height: 80px;
     }
 
     .project-contents {
@@ -1509,7 +1516,7 @@ body {
     }
 
         .page-header h4 {
-            font-size:19px;
+            font-size: 19px;
             font-weight: 500;
             color: var(--write-color);
         }
@@ -1531,7 +1538,7 @@ body {
         margin-bottom: 15px;
         text-align: justify;
         color: var(--write-color);
-        font-size:14px;
+        font-size: 14px;
     }
 
     .ny-main-1 {
@@ -1544,7 +1551,7 @@ body {
 
     .ny-main-2 {
         width: 100%;
-        height:100px;
+        height: 100px;
         display: flex;
         flex-direction: row;
         word-break: break-word;
@@ -1761,23 +1768,23 @@ body {
         background-color: #483838;
     }
 
-    .project-img{
-        display:flex;
-        flex-direction:row;
-        align-items:center;
+    .project-img-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
-    .project-img img {
-        margin: 7px;
-        width: 110px;
-        height: 110px;
-    }
+        .project-img-2 img {
+            margin: 7px;
+            width: 80px;
+            height: 80px;
+        }
 
     .project-contents {
         border-left: 3px solid var(--space-line-color);
         padding: 5px 10px;
         text-align: justify;
-        font-size:14px;
+        font-size: 14px;
     }
 
     .project-write {
@@ -1987,7 +1994,7 @@ body {
         overflow: hidden;
         background-color: #333;
         border-radius: 0px 10px 0px 10px;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
 
     .navi-item a {
@@ -2073,7 +2080,7 @@ body {
     }
 
     .ny-icerik {
-        font-size:14px;
+        font-size: 14px;
         color: var(--write-color);
     }
 
@@ -2144,7 +2151,6 @@ body {
         font-size: 25px;
         box-shadow: 1px 0px 6px white;
         width: 42px;
-
     }
 
     .school-name {
@@ -2197,7 +2203,7 @@ body {
         font-size: 25px;
         box-shadow: 1px 0px 6px white;
         width: 41px;
-        margin-left:1px;
+        margin-left: 1px;
     }
 
     .job-name {
@@ -2267,25 +2273,25 @@ body {
         background-color: #483838;
     }
 
-    .project-img {
+    .project-img-2 {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
 
-        .project-img img {
+        .project-img-2 img {
             margin: 7px;
-            width: 65px;
-            height: 65px;
+            width: 80px;
+            height: 80px;
         }
 
     .project-contents {
         border-left: 2px solid var(--space-line-color);
         padding: 5px 10px;
         text-align: justify;
-        height:120px;
+        height: 120px;
         font-size: 12px;
-        overflow:scroll;
+        overflow: scroll;
     }
 
     .project-write {
@@ -2307,10 +2313,11 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    .map iframe{
-        width:90%;
-        height:300px;
-    }
+
+        .map iframe {
+            width: 90%;
+            height: 300px;
+        }
 
     .contact-cimetry {
         padding-left: 20px;
@@ -2654,7 +2661,7 @@ body {
         font-size: 20px;
         box-shadow: 1px 0px 6px white;
         width: 36px;
-        margin-left:4px;
+        margin-left: 4px;
     }
 
     .school-name {
@@ -2778,16 +2785,16 @@ body {
         background-color: #483838;
     }
 
-    .project-img {
+    .project-img-2 {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
 
-        .project-img img {
+        .project-img-2 img {
             margin: 7px;
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
         }
 
     .project-contents {
