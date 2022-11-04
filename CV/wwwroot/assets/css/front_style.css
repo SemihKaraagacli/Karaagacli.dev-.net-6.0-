@@ -360,7 +360,7 @@ body {
     .ny-baslik {
         font-family: 'Lora', serif;
         margin-bottom: 5px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 800;
         color: var(--write-color);
     }
