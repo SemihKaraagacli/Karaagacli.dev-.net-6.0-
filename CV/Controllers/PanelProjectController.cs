@@ -30,6 +30,10 @@ namespace CV.Controllers
                 project.BlogDosya.CopyTo(stream);
                 project.BlogResim = newimagename;
             }
+            else
+            {
+                project.BlogResim = "Auto.jpg";
+            }
             db.panelProjects.Add(project);
             db.SaveChanges();
             return RedirectToAction("PanelProject");
