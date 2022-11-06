@@ -866,12 +866,12 @@ body {
     }
 
     /* //////////// LEFT -SİDEBAR //////////// */
-    .left-sidebar {
+    .left-sidebar-1 {
         background-color: var(--main-background-color);
         border-radius: 10px;
         padding-left: 15px;
         padding-right: 15px;
-        height: 410px;
+        height: 450px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -893,6 +893,12 @@ body {
         font-weight: bold;
         word-wrap: break-word;
         margin-bottom: 15px;
+    }
+    .profil-name {
+        font-size: 23px;
+        font-weight: 600;
+        color: var(--write-color);
+        margin-bottom: 10px;
     }
 
     .profil-img {
@@ -1352,12 +1358,12 @@ body {
     }
 
     /* //////////// LEFT -SİDEBAR //////////// */
-    .left-sidebar {
+    .left-sidebar-1 {
         background-color: var(--main-background-color);
         border-radius: 10px;
         padding-left: 15px;
         padding-right: 15px;
-        height: 410px;
+        height: 450px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1379,6 +1385,12 @@ body {
         font-weight: bold;
         word-wrap: break-word;
         margin-bottom: 15px;
+    }
+    .profil-name {
+        font-size: 23px;
+        font-weight: 600;
+        color: var(--write-color);
+        margin-bottom: 10px;
     }
 
     .profil-img {
@@ -1854,12 +1866,12 @@ body {
     }
 
     /* //////////// LEFT -SİDEBAR //////////// */
-    .left-sidebar {
+    .left-sidebar-1 {
         background-color: var(--main-background-color);
         border-radius: 10px;
         padding-left: 15px;
         padding-right: 15px;
-        height: 410px;
+        height: 450px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1881,6 +1893,12 @@ body {
         font-weight: bold;
         word-wrap: break-word;
         margin-bottom: 15px;
+    }
+    .profil-name {
+        font-size: 23px;
+        font-weight: 600;
+        color: var(--write-color);
+        margin-bottom: 10px;
     }
 
     .profil-img {
@@ -2364,12 +2382,12 @@ body {
     }
 
     /* //////////// LEFT -SİDEBAR //////////// */
-    .left-sidebar {
+    .left-sidebar-1 {
         background-color: var(--main-background-color);
         border-radius: 10px;
         padding-left: 15px;
         padding-right: 15px;
-        height: 350px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2391,6 +2409,12 @@ body {
         font-weight: bold;
         word-wrap: break-word;
         margin-bottom: 15px;
+    }
+    .profil-name {
+        font-size: 23px;
+        font-weight: 600;
+        color: var(--write-color);
+        margin-bottom: 10px;
     }
 
     .profil-img {
